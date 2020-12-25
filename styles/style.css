@@ -1,0 +1,75 @@
+input[type=text] {
+  -webkit-appearance: searchfield;
+}
+
+ul {
+  float: right;
+  font-size: 13px;
+  list-style-type: none;
+ }
+li {
+  display: inline;
+}
+#google {
+  text-align: center;
+  background-color: #fff;
+  padding: 75px 30px 50px 50px;
+  }
+
+  #rcorners1 {
+  border-radius: 25px;
+  background: #fff;
+  padding: 20px;
+  width: 500px;
+  height: 10px;
+  border: 1px solid grey;
+  margin: 0 auto;
+  color: grey;
+    
+}
+#bars {
+  text-align: center;
+  padding: 40px 0 20px 0;
+  height:50px;
+  color: black;
+  border-radius 10px;
+}
+.description {
+  
+  text-align: center;
+  text-align: float;
+  font-family: arial, sans-serif;
+  color: grey;
+  font-size: 13px;
+  
+}
+.description e {
+  color: blue;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  
+}
+.navbar {
+  background-color: #f2f2f2;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+.navbar a:hover {
+  background-color: #f2f2f2;
+  color: grey;
+}
+.navbar a.active {
+  background-color: ff2f2;
+  color: grey;
+}
